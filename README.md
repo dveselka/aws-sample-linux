@@ -21,3 +21,11 @@ Install Python dependencies
 
  pip install pytz --user
  ```
+ 
+ 
+ Test AWS CLI
+ 
+ Run  ```aws configure```
+ 
+ Get instance description
+ ```aws ec2 describe-instances --instance-ids SOME_ID```
