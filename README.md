@@ -7,6 +7,21 @@ Install AWS CLI
 Get AWS Credentials - stored into  pip install requests --user
 
    ```git clone https://github.com/do-team/aws-dbg-saml```
+   
+Check credentials
+
+```
+[dave@localhost-dave ~]$ ls -1 .aws/
+config
+credentials
+```
+
+```
+[dave@localhost-dave ~]$ more .aws/config 
+[default]
+region = eu-central-1
+```
+
 
 Install Python dependencies
 
